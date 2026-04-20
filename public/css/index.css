@@ -1,0 +1,65 @@
+
+.navbar-modern {
+  margin: 15px 20px;
+  padding: 12px 20px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
+.text-gradient-hover {
+  color: #374151;
+  font-weight: 500;
+  transition: 0.25s ease;
+}
+
+.text-gradient-hover:hover {
+  background: linear-gradient(135deg, #4f46e5, #3b82f6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transform: translateY(-1px);
+}
+.btn-primary {
+  background: linear-gradient(135deg, #4f46e5, #3b82f6);
+  border: none;
+  transition: 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(59, 130, 246, 0.3);
+}
+
+.hero {
+  height: 700px;
+  overflow: hidden;
+}
+
+/* carousel de fondo */
+.hero-carousel img {
+  height: 700px;
+  object-fit: cover;
+}
+
+/* overlay oscuro */
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  z-index: 1;
+}
+
+/* texto encima */
+.hero-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+
+  display: flex;
+  align-items: center;
+}
